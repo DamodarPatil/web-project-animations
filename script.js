@@ -53,7 +53,7 @@ elems.forEach((elem) => {
                         ease: "expo.inOut",
                         duration: 1,
                         onComplete: () => {
-                            animating = false; // Set animating to false after the animation completes
+                            animating = false;
                         },
                     });
                 },
